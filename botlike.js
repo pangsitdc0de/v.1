@@ -35,7 +35,7 @@ const User = [
     {
         type:'input',
         name:'sleep',
-        message:'Waktu Yang Diinginkan (Reccomend 40000)',
+        message:'Waktu Yang Diinginkan (Reccomend 35000)',
         validate: function(value){
             value = value.match(/[0-9]/);
             if (value) return true;
